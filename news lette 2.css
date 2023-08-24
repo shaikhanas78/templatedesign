@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(images/backgrounds/image\ 30.jpg);
+    background-size: cover;
+}
+
+.container .heading p:hover{
+    color: rgb(253, 248, 248);
+    cursor: pointer;
+    
+}
+
+.heading{
+    color: white;
+    /* background-image: url(images/backgrounds/header-background.png);
+    background-size: cover; */
+    display: flex;
+    justify-content: space-evenly;
+   margin-bottom: 50vh;
+}
+
+
+
+.heading p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.middle{
+    display: inline-block;
+    margin: 0px 150px;
+    /* background-color: red; */
+    
+
+}
+
+.middle .company{
+    display: flex;
+    justify-content: center;
+}
+
+.container .middle .company p{
+    font-size: 3rem;
+    padding: 10px 130px;
+    display: inline;
+    background-color: whitesmoke;
+    color: black;
+    border-inline: 5px solid black;
+    
+    z-index: 1;
+    
+}
+
+.container .middle .newsletter p{
+    display: inline;
+    font-size: 7rem;
+    background-color: #0c0c6e;
+    color: white;
+    padding: 20px 250px;
+     
+}
+.bottom{
+  
+    margin: 30px 135px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom .firsttable{
+   
+    background-color: rgb(119 119 102 / 48%);
+    width: 45%
+}
+
+.bottom .firsttable img{
+    margin: 20px 20px;
+    height: 50vh;
+    width: 30vw;
+}
+
+.bottom .firsttable .text1 h3{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.bottom .firsttable .text1 p,h3{
+    margin-inline: 30px;
+    font-size: 20px;
+}
+
+.secondtable{
+    width: 45%;
+    background-color: rgb(119 119 102 / 48%);
+}
+
+.bottom .secondtable img{
+    height: 50vh;
+    width: 30vw;
+    margin: 20px 20px 20px 20px;
+   
+}
+.secondtable .text2 p{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.secondtable .text2 span{
+    font-size: 20px;
+}
+
+.secondtable .text2{
+    margin-inline:30px
+}
